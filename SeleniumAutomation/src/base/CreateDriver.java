@@ -20,6 +20,7 @@ public class CreateDriver {
 	public void startRep()
 	{
 		rep = new ExtentReports("./Report/Report.html");
+		System.out.println("Hello");
 	}
 	
 	@AfterSuite
