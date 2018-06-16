@@ -36,7 +36,7 @@ public class CreateDriver {
 		rb = ResourceBundle.getBundle("config");
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\TestingWorld\\Downloads\\chromedriver_win32 (9)\\chromedriver2.exe");
         driver = new ChromeDriver();
-		driver.get(rb.getString("webname"));
+		driver.get("https://www.facebook.com");
 	}
 	
 	@AfterMethod
